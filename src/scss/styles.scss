@@ -1,11 +1,2 @@
+@use 'global.scss';
 @use 'utilities';
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  p {
-    color: tomato;
-  }
-}
