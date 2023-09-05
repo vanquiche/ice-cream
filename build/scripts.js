@@ -1,0 +1,1 @@
+!function(){"use strict";void 0!==window&&(console.log("hello world"),console.log("navbar"))}();
