@@ -9,7 +9,8 @@
     "watch": "wp-scripts watch",
     "format:js": "wp-scripts format-js",
     "lint:js": "wp-scripts lint-js",
-    "lint:css": "wp-scripts lint-css"
+    "lint:css": "wp-scripts lint-css",
+    "plugin-zip": "wp-scripts plugin-zip"
   },
   "author": "vanquiche",
   "license": "ISC",
@@ -20,5 +21,19 @@
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
     "webpack-fix-style-only-entries": "^0.6.1"
-  }
+  },
+  "files": [
+    "functions.php",
+    "index.php",
+    "license.txt",
+    "readme.txt",
+    "style.css",
+    "theme.json",
+    "templates",
+    "parts",
+    "build",
+    "assets",
+    "styles",
+    "patterns"
+  ]
 }
