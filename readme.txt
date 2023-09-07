@@ -16,6 +16,8 @@ Ice Cream is a simple theme meant as a starting place for you next block theme. 
 
 To package your theme, simply run the following command: npm run zip.
 
+Activate this theme within your WordPress theme dashboard. I recommend using wp-env to create your local WordPress environment. You can find out more information about wp-env [here](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-env/)
+
 == Changelog ==
 1.0.1 Initial release
 
