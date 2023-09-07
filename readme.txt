@@ -3,18 +3,21 @@ Contributors: stevevang
 Tested up to: 6.2
 Requires at least: 6.1
 Requires PHP: 7.4
-Version: 1.0.0
+Version: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Copyright: stevevang
+Copyright: Parfait Designs
 
-A full site editing theme. Empty version.
-Please note that this is not a complete theme, only a head start.
-You need to add values to or remove setings in theme.json 
-for the theme to work without JavaScript errots in the editor.
+Ice Cream is a simple theme meant as a starting place for you next block theme. It offers support for TypeScript and Sass. To get started with this template:
+
+1. Begin by forking this repository.
+2. Install the necessary dependencies using the command: npm install.
+3. Launch the development environment by executing: npm run start. This command will continuously monitor for changes and compile/build TypeScript and SCSS files.
+
+To package your theme, simply run the following command: npm run zip.
 
 == Changelog ==
-1.0.0 Initial release
+1.0.1 Initial release
 
 == Licence ==
 ice-cream is distributed under the terms of the GNU GPL.
