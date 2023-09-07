@@ -10,7 +10,7 @@
     "format:js": "wp-scripts format-js",
     "lint:js": "wp-scripts lint-js",
     "lint:css": "wp-scripts lint-css",
-    "plugin-zip": "wp-scripts plugin-zip"
+    "zip": "wp-scripts plugin-zip"
   },
   "author": "vanquiche",
   "license": "ISC",
