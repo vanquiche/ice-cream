@@ -136,12 +136,12 @@
       "fontSizes": [
         {
           "slug": "small",
-          "size": "0.875rem",
+          "size": "1rem",
           "name": "Small"
         },
         {
           "slug": "medium",
-          "size": "1rem",
+          "size": "1.5rem",
           "name": "Medium"
         },
         {
@@ -152,12 +152,12 @@
         {
           "slug": "extra-large",
           "size": "2.65rem",
-          "name": "XL"
+          "name": "Extra Large"
         },
         {
           "slug": "2-extra-large",
           "size": "3.2rem",
-          "name": "XXL"
+          "name": "2Extra Large"
         }
       ]
     },
