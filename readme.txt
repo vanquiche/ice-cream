@@ -10,7 +10,7 @@ Copyright: Parfait Designs
 
 Ice Cream is a simple theme meant as a starting place for you next block theme. It offers support for TypeScript and Sass. To get started with this template:
 
-1. Begin by forking this repository.
+1. Begin by cloning this repository.
 2. Install the necessary dependencies using the command: npm install.
 3. Launch the development environment by executing: npm run start. This command will continuously monitor for changes and compile/build TypeScript and SCSS files.
 
