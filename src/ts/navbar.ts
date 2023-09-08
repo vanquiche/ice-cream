@@ -1,3 +1,3 @@
 export default function greet() {
-  console.log('navbar');
+	console.log( 'navbar' );
 }

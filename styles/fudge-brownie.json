@@ -1,32 +1,32 @@
 {
-  "$schema": "https://schemas.wp.org/trunk/theme.json",
-  "version": 2,
-  "title": "Fudge Brownie",
-  "description": "Dark theme",
-  "settings": {
-    "color": {
-      "palette": [
-        {
-          "slug": "contrast",
-          "color": "#313638",
-          "name": "Contrast"
-        },
-        {
-          "slug": "base",
-          "color": "#fff8f0",
-          "name": "Base"
-        },
-        {
-          "slug": "primary",
-          "color": "#35a7ff",
-          "name": "Primary"
-        },
-        {
-          "slug": "secondary",
-          "color": "#f4d06f",
-          "name": "Secondary"
-        }
-      ]
-    }
-  }
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Fudge Brownie",
+	"description": "Dark theme",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "contrast",
+					"color": "#313638",
+					"name": "Contrast"
+				},
+				{
+					"slug": "base",
+					"color": "#fff8f0",
+					"name": "Base"
+				},
+				{
+					"slug": "primary",
+					"color": "#35a7ff",
+					"name": "Primary"
+				},
+				{
+					"slug": "secondary",
+					"color": "#f4d06f",
+					"name": "Secondary"
+				}
+			]
+		}
+	}
 }
