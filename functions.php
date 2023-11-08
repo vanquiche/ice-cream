@@ -1,12 +1,6 @@
 <?php
 
 /**
- * 1. enqueue styles and scripts
- *
- */
-
-
-/**
  * enqueue styles and scripts
  */
 function add_theme_styles_and_scripts()
@@ -18,3 +12,39 @@ function add_theme_styles_and_scripts()
 }
 
 add_action('wp_enqueue_scripts', 'add_theme_styles_and_scripts');
+
+/*
+// register block variations
+function prefix_editor_assets()
+{
+  wp_enqueue_script('prefix-block-variations', get_template_directory_uri() . '/assets/js/block-variations.js', array('wp-blocks'));
+}
+
+add_action('enqueue_block_editor_assets', 'prefix_editor_assets');
+*/
+
+
+/*
+// sync editor with styles
+
+function add_styles_to_editor()
+{
+  add_editor_style('/build/styles.css');
+}
+
+add_action('after_setup_theme', 'add_styles_to_editor');
+
+*/
+
+
+/*
+// add custom block pattern category
+
+function add_theme_block_pattern_category()
+{
+  register_block_pattern_category('red-velvet', array('label' => __('Red Velvet', 'red-velvet')));
+};
+
+add_action('init', 'add_theme_block_pattern_category');
+
+*/
