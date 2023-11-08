@@ -1,0 +1,45 @@
+@use 'variables' as v;
+// set to only apply at wordpress' mobile breakpoint
+@media screen and (max-width: v.$mobile_breakpoint) {
+  .pd-mobile-menu {
+    width: 100%;
+    margin-top: var(--wp--preset--spacing--60) !important;
+
+    .pd-mobile-menu__menu-with-child {
+      position: relative;
+      width: 100%;
+    }
+
+    .pd-mobile-menu__submenu-button {
+      display: inline-block !important;
+      position: absolute;
+      right: 0;
+      transition: transform 150ms ease;
+    }
+
+    .pd-mobile-menu__submenu {
+      width: 100% !important;
+      padding-bottom: 0 !important;
+      padding-right: 0 !important;
+      transition: opacity 250ms ease;
+    }
+
+    .pd-mobile-menu__submenu-button[aria-expanded='true'] {
+      transform: rotate(0deg);
+    }
+
+    .pd-mobile-menu__submenu-button[aria-expanded='false'] {
+      transform: rotate(90deg);
+    }
+
+    .pd-mobile-menu__submenu-button[aria-expanded='true']
+      ~ .pd-mobile-menu__submenu {
+      display: flex;
+    }
+
+    .pd-mobile-menu__submenu-button[aria-expanded='false']
+      ~ .pd-mobile-menu__submenu {
+      display: none;
+    }
+  }
+}
