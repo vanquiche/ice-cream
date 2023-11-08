@@ -28,6 +28,11 @@ module.exports = {
 					'sass-loader',
 				],
 			},
+			{
+				test: /\.tsx?$/,
+				use: 'ts-loader',
+				exclude: /node_modules/,
+			},
 		],
 	},
 	plugins: [
